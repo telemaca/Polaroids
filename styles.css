@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: 'La Belle Aurore';
+}
+
+
+.background {
+    background-image: url(imgs/fondo.JPG);
+    width: 100%;
+    height: 140vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    padding-top: 20px;
+}
+
+figure {
+    margin: 10px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: snow;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 1px;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.7);
+    transition: .4s;
+    float: left;
+}
+
+img {
+    width: 90%;
+    padding: 10px 10px 60px 10px;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 15px;
+    
+}
+
+.photo1 {
+    transform: rotate(-20deg);
+}
+
+.photo2 {
+    transform: rotate(5deg);
+}
+
+.photo3 {
+    transform: rotate(-10deg);
+}
+
+.photo4 {
+    transform: rotate(10deg);
+}
+
+.photo5 {
+    transform: rotate(-5deg);
+}
+
+.photo6 {
+    transform: rotate(20deg);
+}
+
+.photo7 {
+    transform: rotate(-15deg);
+}
+
+.photo8 {
+    transform: rotate(10deg);
+}
+
+.photo9 {
+    transform: rotate(-5deg);
+}
+
+figure:hover {
+    transform: rotate(0) scale(1.8);
+    z-index: 2;
+    box-shadow: 10px 10px 30px 10px rgba(0, 0, 0, 0.7);
+}
